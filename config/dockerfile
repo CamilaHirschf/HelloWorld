@@ -4,7 +4,8 @@ COPY requirements.txt /
 
 RUN pip3 install --upgrade pip
 
-RUN pip3 install -r /requirements.txt
+RUN pip3 install Flask==3.0.0
+RUN pip3 install gunicorn==21.2.0
 
 
 
