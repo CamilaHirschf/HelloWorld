@@ -3,7 +3,7 @@ FROM python:3.7.3-slim
 
 RUN pip3 install --upgrade pip
 
-RUN pip3 install Flask==3.0.0
+RUN pip3 install Flask==latest
 RUN pip3 install gunicorn==21.2.0
 
 
