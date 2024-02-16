@@ -1,0 +1,36 @@
+<html>
+<head>
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='style-error.css') }}" rel="stylesheet">
+</head>
+<body>
+  
+  <title>ANSES - Administración Nacional de la Seguridad Social</title>
+  <meta name="description" content="">
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  </header>
+    <div style="background: #0481CB">
+     <div class="marca-anses">
+      <img alt="Administración Nacional de la Seguridad Social" src="{{ url_for('static', filename='images/anses.png') }}">
+     </div>
+    </div>
+  </header>  
+              
+  <div>
+    <div style="marca-anses">
+      <div align="center">
+        <img class="error" alt="Mantenimiento" src="{{ url_for('static', filename='images/mantenimiento.png') }}">
+          <h1>La página que buscás no existe</h1>
+              <div class="button">
+              <a class="btn btn-default" href="\login">Ir a página de Inicio</a>
+              </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="iyp__toolbar"></div>
+  <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+  </body>
+  </html>

@@ -1,0 +1,78 @@
+body{
+    font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.marca-anses{ 
+  background: #0481CB;	
+}
+.marca-anses img{ 
+    margin-left:20%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: #005296;
+}
+p{
+    margin-top: 8px;
+    margin-bottom: 45px;
+}
+.codigo{
+    font-size: 10px;
+    color: gray;
+}
+.container{
+    background: #e0e0e0;
+    margin: 0 0 1rem;
+/*    height: 10rem;*/
+    display: flex;
+    align-items: start;
+}
+.error{
+    margin-top: 40px;
+  margin-bottom: 10px;
+}
+.button{
+    margin:40px 0 20px 0;
+}
+.btn{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: initial;
+  word-break: initial;
+  text-decoration: none;
+  border-radius: 10px;
+  }
+
+  .btn:active{
+    transform: translate(0, 4px);
+    box-shadow: none; }
+    .btn:active:focus{
+      outline: none;
+      -webkit-outline: none; }      
+  .btn:focus{
+    outline: none;
+    -webkit-outline: none; }
+    .btn-default{
+  background-color: #005296;
+  border: 2px solid #005296;
+  color: #FFFFFF;
+  font-weight: bold; }
+  .btn-default:active{
+    background-color: #1786E2;
+    color: #FFFFFF; }
+    .btn-default:active:hover {
+      background-color: #1786E2;
+      color: #FFFFFF; }
+  .btn-default:hover{
+    background-color: #1786E2;
+  border: 2px solid #1786E2;
+    color: #FFFFFF; }
+  .btn-default:focus{
+    background-color: #1786E2;
+    color: #FFFFFF; }
